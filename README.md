@@ -1,1 +1,2 @@
-this is a cool website
+This is a cool website.
+(German)
