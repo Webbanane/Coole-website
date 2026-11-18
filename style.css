@@ -1,0 +1,26 @@
+    h1 {
+        font-family: arial;
+
+    }
+    #chinchilla {
+        width: 200px;
+    }
+    #logo {
+        width: 300px;
+    }
+    a {
+        font-family: arial;
+        font-weight: 700;
+        padding: 10px;
+    }
+    .darkmode {
+        background-color:rgb(28, 28, 28);
+
+        p {
+            color:rgb(255, 255, 255);
+        }
+
+        a {
+            color:rgb(139, 139, 255);
+        }
+    }
