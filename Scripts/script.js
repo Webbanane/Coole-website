@@ -2,7 +2,7 @@ let CCount = 0;
 
 const colors = ["#a0009d", "#ff0000", "#0b00a4", "#171717" ];
 
-let mode = 0
+let mode = 1
 
 function clicked() {
     CCount++;
