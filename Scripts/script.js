@@ -18,8 +18,8 @@ function ColorBack() {
 
 function ModeChange() {
     document.body.classList.toggle("darkmode");
-    if (darkmode) {
-        document.getElementById("logo").src = "Unbenannt.jpg";
-        darkmode = false
-        lightmode = true
+    if (lightmode) {
+        document.getElementById("logo").src = "dark.png";
+        darkmode = true
+        lightmode = false
 }
