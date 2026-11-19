@@ -14,6 +14,14 @@ function ColorBack() {
 }
 
 function ModeChange() {
+    let mode = 0
+    if(mode == 0) {
+        document.getElementById("logo").src="images/Unbenannt.jpg";
+        mode = 1;
+    }
+    elif (mode == 1) {
+        document.getElementById("logo").src="images/dark.png";
+        mode = 0
+    }
     document.body.classList.toggle("darkmode");
-    document.getElementById("logo").src="images/dark.png";
 }
