@@ -18,11 +18,11 @@ function ColorBack() {
 function ModeChange() {
     document.body.classList.toggle("darkmode");
     if(darkmode == false) {
-        document.getElementById("logo").src="images/dark.png";
+        document.getElementById("logo").src="images/Unbenannt.jpg";
         darkmode = true;
     }
     else if (darkmode) {
-        document.getElementById("logo").src="images/Unbenannt.jpg";
+        document.getElementById("logo").src="images/dark.png";
         darkmode = false;
     }
 }
