@@ -22,4 +22,5 @@ function ModeChange() {
         document.getElementById("logo").src = "dark.png";
         darkmode = true
         lightmode = false
+    }
 }
