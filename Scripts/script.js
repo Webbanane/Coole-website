@@ -2,7 +2,7 @@ let CCount = 0;
 
 const colors = ["#a0009d", "#ff0000", "#0b00a4", "#171717" ];
 
-let mode = 1
+let darkmode = false
 
 function clicked() {
     CCount++;
@@ -17,12 +17,12 @@ function ColorBack() {
 
 function ModeChange() {
     document.body.classList.toggle("darkmode");
-    if(mode == 0) {
+    if(darkmode == false) {
         document.getElementById("logo").src="images/dark.png";
-        mode = 1;
+        darkmode = true;
     }
-    else if (mode == 1) {
+    else if (darkmode) {
         document.getElementById("logo").src="images/Unbenannt.jpg";
-        mode = 0;
+        darkmode = false;
     }
 }
