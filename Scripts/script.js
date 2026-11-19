@@ -2,6 +2,8 @@ let CCount = 0;
 
 const colors = ["#a0009d", "#ff0000", "#0b00a4", "#171717" ];
 
+let mode = 0
+
 function clicked() {
     CCount++;
     document.getElementById("score").textContent = CCount;
@@ -14,7 +16,6 @@ function ColorBack() {
 }
 
 function ModeChange() {
-    let mode = 0
     if(mode == 0) {
         document.getElementById("logo").src="images/Unbenannt.jpg";
         mode = 1;
