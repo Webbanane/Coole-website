@@ -21,7 +21,7 @@ function ModeChange() {
         document.getElementById("logo").src="images/Unbenannt.jpg";
         mode = 1;
     }
-    elif (mode == 1) {
+    else if (mode == 1) {
         document.getElementById("logo").src="images/dark.png";
         mode = 0;
     }
