@@ -19,7 +19,7 @@ function ColorBack() {
 function ModeChange() {
     document.body.classList.toggle("darkmode");
     if (lightmode) {
-        document.getElementById("logo").src = "dark.png";
+        document.getElementById("logo").src = "../images/dark.png";
         darkmode = true
         lightmode = false
     }
