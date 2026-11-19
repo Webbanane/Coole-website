@@ -15,5 +15,5 @@ function ColorBack() {
 
 function ModeChange() {
     document.body.classList.toggle("darkmode");
-    document.getElementById("logo").src="../images/dark.png";
+    document.getElementById("logo").src="images/dark.png";
 }
