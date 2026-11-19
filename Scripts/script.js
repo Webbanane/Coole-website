@@ -22,7 +22,7 @@ function ModeChange() {
     }
     elif (mode == 1) {
         document.getElementById("logo").src="images/dark.png";
-        mode = 0
+        mode = 0;
     }
     document.body.classList.toggle("darkmode");
 }
