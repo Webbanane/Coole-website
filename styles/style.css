@@ -14,9 +14,18 @@
         padding: 10px;
     }
     img {
-        border-radius: 8px;
+        border-radius: 11px;
     }
-
+    .CCanim {
+        #chinchilla {
+            width: 180px;
+        }
+    }
+    .CCanimBack {
+        #chinchilla {
+            width: 200px;
+        }
+    }
     .darkmode {
         background-color:rgb(28, 28, 28);
 
