@@ -10,7 +10,7 @@ function clicked() {
     CCount++;
     document.getElementById("score").textContent = CCount;
     document.body.classList.toggle("CCanim");
-    setTimeout(declick, 80)
+    setTimeout(declick, 80);
 }
 
 function ModeChange() {
