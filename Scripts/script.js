@@ -10,7 +10,12 @@ function clicked() {
     setTimeout(ColorBack, 80);
 }
 function ColorBack() {
-    document.body.style.backgroundColor = "#ffffff";
+    if(isDark) {
+        document.body.classList.toggle("darkmode");
+    }
+    else {
+        document.body.style.backgroundColor = "#ffffff";
+    }
 }
 
 function ModeChange() {
