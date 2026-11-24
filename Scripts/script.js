@@ -6,7 +6,7 @@ const colors = ["#a0009d", "#ff0000", "#0b00a4", "#171717"];
 let dark = localStorage.getItem("dark") === "true";
 
 function enter() {
-    let input = document.getElementById("meinText").value;
+    let input = document.getElementById("TBox").value;
     alert(input);
 }
 
