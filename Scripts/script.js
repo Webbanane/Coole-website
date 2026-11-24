@@ -27,5 +27,10 @@ function ModeChange() {
         ? "./images/dark.png"
         : "./images/Unbenannt.jpg";
 
-    localStorage.setItem("dark", "true");
+    if(isDark) {
+        localStorage.setItem("dark", "true");
+    }
+    else {
+        localStorage.setItem("dark", "false");
+    }
 }
