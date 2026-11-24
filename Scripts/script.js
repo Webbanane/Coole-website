@@ -5,6 +5,10 @@ const colors = ["#a0009d", "#ff0000", "#0b00a4", "#171717"];
 
 let dark = localStorage.getItem("dark") === "true";
 
+let input = document.getElementById("meinText").value;
+
+console.log(input);
+
 function declick() {
     document.body.classList.remove("CCanim");
 }
