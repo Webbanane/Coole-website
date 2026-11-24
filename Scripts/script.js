@@ -1,6 +1,7 @@
+
 let CCount = 0;
 
-const colors = ["#a0009d", "#ff0000", "#0b00a4", "#171717" ];
+const colors = ["#a0009d", "#ff0000", "#0b00a4", "#171717"];
 
 let dark = localStorage.getItem("dark") === "true";
 
@@ -15,10 +16,6 @@ function clicked() {
     setTimeout(declick, 50);
 }
 
-if(dark) {
-    ModeChange()
-}
-
 function ModeChange() {
     const isDark = document.body.classList.toggle("darkmode");
     const logo = document.getElementById("logo");
@@ -27,10 +24,11 @@ function ModeChange() {
         ? "./images/dark.png"
         : "./images/Unbenannt.jpg";
 
-    if(isDark) {
-        localStorage.setItem("dark", "true");
-    }
-    else {
-        localStorage.setItem("dark", "false");
-    }
+    localStorage.setItem("dark", String(isDark));
+}
+
+// Gespeicherten Modus wiederherstellen
+if (dark) {
+    document.body.classList.add("darkmode");
+    document.getElementById("logo").src = "./images/dark.png";
 }
