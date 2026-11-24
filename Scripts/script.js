@@ -7,7 +7,7 @@ let dark = localStorage.getItem("dark") === "true";
 
 let input = document.getElementById("meinText").value;
 
-console.log(input);
+alert(input);
 
 function declick() {
     document.body.classList.remove("CCanim");
