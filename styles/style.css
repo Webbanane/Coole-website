@@ -16,6 +16,12 @@
     img {
         border-radius: 11px;
     }
+
+    #nav {
+        background-color:rgb(255, 255, 230);
+        padding: 10px;
+    }
+
     .CCanim {
         #chinchilla {
             width: 180px;
