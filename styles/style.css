@@ -38,4 +38,8 @@
         a {
             color:rgb(139, 139, 255);
         }
+        #nav {
+        background-color:rgb(0, 0, 0);
+        padding: 10px;
+        }
     }
