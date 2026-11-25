@@ -5,9 +5,22 @@ const colors = ["#a0009d", "#ff0000", "#0b00a4", "#171717"];
 
 let dark = localStorage.getItem("dark") === "true";
 
+let random = Math.floor(Math.random() * 100) + 1;
+
 function enter() {
-    let input = document.getElementById("TBox").value;
-    alert(input);
+    let input = Number(document.getElementById("TBox").value);
+    if (input < random){
+        document.getElementById("hint").textContent = "Dein Guess ist kleiner als die Zahl!";
+    }
+    else if(input > random){
+        document.getElementById("hint").textContent = "Dein Guess ist größer als die Zahl!";
+    }
+    else if(input == random){
+        document.getElementById("hint").textContent = "Richtig!🎉";
+    }
+    else{
+        document.getElementById("hint").textContent = "Dein Guess ist... Keine Zahl...🤦‍♂️";
+    }
 }
 
 function declick() {

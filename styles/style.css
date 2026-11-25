@@ -1,6 +1,6 @@
-    h1 {
+    h2 {
         font-family: arial;
-
+        color:black;
     }
     #chinchilla {
         width: 200px;
@@ -20,6 +20,10 @@
     #nav {
         background-color:rgb(255, 255, 230);
         padding: 10px;
+    }
+
+    b {
+        color: rgb(0, 0, 0);
     }
 
     .CCanim {
@@ -45,5 +49,11 @@
         button {
             background-color:rgb(0, 0, 0);
             color:rgb(255, 255, 255);
+        }
+        b {
+            color: rgb(255, 255, 255);
+        }
+        h2 {
+            color: rgb(255, 255, 255)
         }
     }

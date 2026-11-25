@@ -12,17 +12,26 @@
     <div id="nav">
       <nav>
         <a href="./index.html">Start</a>
-        <a href="./blog.html">Blog</a>
-        <a href="./abt_me.html">Info</a>
+        <a href="./blog.html">Zahlenraten</a>
         <a href="./CClicker.html">Chinchilla Clicker</a>
+        <a href="./abt_me.html">Info</a>
       </nav>
     </div>
-    <p>Blog.</p>
-    <input type="text" id="TBox" placeholder="Schreib etwas..."><button onclick="enter()">•</button>
+    <h2>Zahlenraten</h2>
+    <p>
+      <b>Zahlenraten! </b>Hier denkt sich der Computer eine Zahl zwischen 1 und 100 aus, und du musst sie Erraten!<br>
+      Gebe sie unten ein und Drücke den >•< Knopf, um anzufangen!
+    </p>
+    <input type="text" id="TBox" placeholder="Hier raten<-"><button onclick="enter()">•</button>
+    <p>
+      <b id = "hint"></b>
+    </p>
   </body>
   <footer>
-    <button onclick="ModeChange()">Dark/Light Mode</button>
-    <p>&copy 2026</p>
+    <div id = "nav">
+      <button onclick="ModeChange()">Dark/Light Mode</button>
+      <p>&copy 2026</p>
+    </div>
   </footer>
   <script src="Scripts/script.js"></script>
 </html>
