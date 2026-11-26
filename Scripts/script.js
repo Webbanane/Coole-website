@@ -21,6 +21,7 @@ function enter() {
     else{
         document.getElementById("hint").textContent = "Dein Guess ist... Keine Zahl...🤦‍♂️";
     }
+    document.getElementById("TBox").value = "";
 }
 
 function declick() {
